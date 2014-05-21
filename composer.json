@@ -1,0 +1,16 @@
+{
+	"name": "weboftalent/page-with-image",
+	"description": "Same as a standard page but with the addition of a main imshr",
+	"keywords": ["silverstripe", "image","weboftalent"],
+	"type": "silverstripe-module",
+	"authors": [
+	{
+		"name": "Gordon Anderson",
+		"email": "gordon@weboftalent.asia"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "3.1.*"
+	}
+}
