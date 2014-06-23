@@ -10,6 +10,10 @@ class PageWithImage extends Page implements RenderableAsPortlet {
   );
 
 
+  // for rendering thumbnail when linked in facebook
+  function getOGImage() {
+        return $this->MainImage();
+    }
  
 
   function getCMSFields() {
