@@ -14,7 +14,9 @@ class PageWithImage extends Page implements RenderableAsPortlet {
 
   function getCMSFields() {
     $fields = parent::getCMSFields();
-    $fields->addFieldToTab( 'Root.Content.Image', new ImageField('MainImage'));
+    $fields->addFieldToTab( 'Root.Image', $uf = new UploadField('MainImage'));
+    $dirname = strtolower($this->ClassName).'s';
+    $uf->setFolderName($dirname);
     return $fields;
   }
 
