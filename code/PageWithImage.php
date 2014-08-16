@@ -47,5 +47,3 @@ class PageWithImage extends Page implements RenderableAsPortlet {
 class PageWithImage_Controller extends Page_Controller {
 
 }
-
-?>
