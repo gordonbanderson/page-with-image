@@ -1,4 +1,4 @@
-<?php
+ 23<?php
 /**
 * Defines the SupportingProjectPage page type - initial code created by ss generator
 */
@@ -32,8 +32,12 @@ class PageWithImage extends Page implements RenderableAsPortlet {
 
   // FIXME - make this more efficient
   public function getPortletImage() {
-    return DataObject::get_by_id('Image', $this->MainImageID);
-    
+    $result = null;
+    if ($this->MainImageId) {
+      $result = DataObject::get_by_id('Image', $this->MainImageID);
+    }
+
+    return $result;
   }
   
   
