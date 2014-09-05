@@ -1,4 +1,4 @@
- <?php
+<?php
 /**
 * Defines the SupportingProjectPage page type - initial code created by ss generator
 */
