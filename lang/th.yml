@@ -1,0 +1,5 @@
+th:
+  PageWithImage:
+    IMAGE: 'รูปภาพ'
+    MAIN_IMAGE: 'รูปภาพ'
+    LAYOUT: 'เค้าโครง' #CHECK
