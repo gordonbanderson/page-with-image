@@ -5,7 +5,10 @@
 class PageWithImage extends Page implements RenderableAsPortlet, RenderableAsTwitterCard {
 
   // Brief summary to show on facebook and twitter when linking
-  private static $db = array('BriefIntroduction' => 'Text');
+  private static $db = array(
+    'ImageAttribution' => 'Varchar(255)',
+    'BriefIntroduction' => 'Text'
+  );
 
 
   static $has_one = array(
@@ -25,6 +28,7 @@ class PageWithImage extends Page implements RenderableAsPortlet, RenderableAsTwi
     $fields->addFieldToTab( 'Root.'.$imagename, $uf = new UploadField('MainImage', _t('PageWithImage.MAIN_IMAGE', 'Main Image')));
     $dirname = strtolower($this->ClassName).'s';
     $uf->setFolderName($dirname);
+    $fields->addFieldToTab('Root.'.$imagename, new TextField('ImageAttribution', 'Image Credit'));
     $fields->addFieldToTab('Root', new TextAreaField('BriefIntroduction', 'Brief description of the page for Twitter and Facebook purposes'), 'Content');
     return $fields;
   }
