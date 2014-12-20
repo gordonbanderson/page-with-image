@@ -7,7 +7,7 @@ class PageWithImage extends Page implements RenderableAsPortlet, RenderableAsTwi
   // Brief summary to show on facebook and twitter when linking
   private static $db = array(
     'ImageAttribution' => 'Varchar(255)',
-    'BriefIntroduction' => 'Text'
+    'BriefIntroduction' => 'HTMLText'
   );
 
 
@@ -55,7 +55,7 @@ class PageWithImage extends Page implements RenderableAsPortlet, RenderableAsTwi
   }
 
   public function getTwitterDescription() {
-    return $this->BriefIntroduction;
+    return Convert::html2raw($this->BriefIntroduction);
   }
 
 }
