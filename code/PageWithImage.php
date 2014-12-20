@@ -38,57 +38,22 @@ class PageWithImage extends Page implements RenderableAsPortlet, RenderableAsTwi
     return $this->Title;
   }  
 
-
-  // FIXME - make this more efficient
   public function getPortletImage() {
     return $this->MainImage();
-  }
-  
-  
+  }  
  
   public function getPortletCaption() {
     return $this->BriefIntroduction;
   }
 
-
-
-    /**
-   * An accessor method for the title of an item in a Twitter
-   * @example
-   * <code>
-   *  return $this->Title;
-   * </code>
-   *
-   * @return string
-   */
   public function getTwitterTitle() {
     return $this->Title;
   }
-  
 
-  /**
-   * An accessor method for an image for a Twitter
-   * @example
-   * <code>
-   *  return $this->NewsItemImage;
-   * </code>
-   *
-   * @return string
-   */
   public function getTwitterImage() {
     return $this->MainImage();
   }
-  
-  
-  /**
-   * An accessor for text associated with the Twitter
-   * @example
-   * <code>
-   * return $this->Summary
-   * </code>
-   *
-   * @return string
-   */ 
+
   public function getTwitterDescription() {
     return $this->BriefIntroduction;
   }
