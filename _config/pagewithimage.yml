@@ -1,0 +1,10 @@
+---
+Name: pagewithimage
+---
+PageWithImageFolder:
+  can_be_root: true
+  allowed_children:
+    - PageWithImage
+
+PageWithImage:
+  can_be_root: false
