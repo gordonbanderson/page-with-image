@@ -1,6 +1,6 @@
 {
 	"name": "weboftalent/page-with-image",
-	"description": "Same as a standard page but with the addition of a main imshr",
+	"description": "Same as a standard page but with the addition of a main image",
 	"keywords": ["silverstripe", "image","weboftalent"],
 	"type": "silverstripe-module",
 	"authors": [
