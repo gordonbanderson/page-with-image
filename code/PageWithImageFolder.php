@@ -4,7 +4,8 @@
 */
 class PageWithImageFolder extends PageWithImage implements SeoInformationProvider {
 
-	static $allowed_children = array('PageWithImage');
+	//static $allowed_children = array('PageWithImage', 'NearestPOIPage', 'OpenWeatherMapStationsPage','POIMapPage');
+
 
 
 	public function getImagesForSeo() {
