@@ -17,14 +17,14 @@ class AddImageExtension extends DataExtension {
 
 
 	public function getPortletTitle() {
-		return $this->Title;
+		return $this->owner->Title;
 	}
 
 	public function getPortletImage() {
-		return $this->MainImage;
+		return $this->owner->MainImage();
 	}
 
 	public function getPortletCaption() {
-		return $this->Title;
+		return $this->owner->Title;
 	}
 }
