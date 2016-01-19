@@ -1,4 +1,21 @@
 # Page With Image
+[![Build Status](https://travis-ci.org/gordonbanderson/page-with-image.svg?branch=continuous_integration)](https://travis-ci.org/gordonbanderson/page-with-image)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/page-with-image/badges/quality-score.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/page-with-image/?branch=continuous_integration)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/page-with-image/badges/coverage.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/page-with-image/?branch=continuous_integration)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/page-with-image/badges/build.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/page-with-image/build-status/continuous_integration)
+[![codecov.io](https://codecov.io/github/gordonbanderson/page-with-image/coverage.svg?branch=continuous_integration)](https://codecov.io/github/gordonbanderson/page-with-image?branch=continuous_integration)
+
+[![Latest Stable Version](https://poser.pugx.org/weboftalent/page-with-image/version)](https://packagist.org/packages/weboftalent/page-with-image)
+[![Latest Unstable Version](https://poser.pugx.org/weboftalent/page-with-image/v/unstable)](//packagist.org/packages/weboftalent/page-with-image)
+[![Total Downloads](https://poser.pugx.org/weboftalent/page-with-image/downloads)](https://packagist.org/packages/weboftalent/page-with-image)
+[![License](https://poser.pugx.org/weboftalent/page-with-image/license)](https://packagist.org/packages/weboftalent/page-with-image)
+[![Monthly Downloads](https://poser.pugx.org/weboftalent/page-with-image/d/monthly)](https://packagist.org/packages/weboftalent/page-with-image)
+[![Daily Downloads](https://poser.pugx.org/weboftalent/page-with-image/d/daily)](https://packagist.org/packages/weboftalent/page-with-image)
+
+[![Dependency Status](https://www.versioneye.com/php/weboftalent:page-with-image/badge.svg)](https://www.versioneye.com/php/weboftalent:page-with-image)
+[![Reference Status](https://www.versioneye.com/php/weboftalent:page-with-image/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:page-with-image/references)
+
+![codecov.io](https://codecov.io/github/gordonbanderson/page-with-image/branch.svg?branch=continuous_integration)
 
 ## Maintainers
 
