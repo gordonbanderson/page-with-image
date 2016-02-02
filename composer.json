@@ -14,7 +14,8 @@
     }
   ],
   "require": {
-    "silverstripe/framework": "~3.1"
+    "silverstripe/framework": "~3.1",
+    "weboftalent/twitter-tools" : "~1"
   },
   "license": "BSD-3-Clause"
 }
